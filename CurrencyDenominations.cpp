@@ -44,6 +44,7 @@ int main()
 			 .addToOutput("D: ", numOfDimes).addToOutput("N: ", numOfNickels).addToOutput("P: ", numOfPennies);
 
 	std::cout<<formatter.getOutput();
+	std::cin.get();
 }
 
 
